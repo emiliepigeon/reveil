@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>horloge</title>
+    <link href="./reveil.css" rel="stylesheet">
+</head>
+
+<body onLoad="initClock()">
+    <!--horloge-->
+    <div class="clock">
+        <!--fond horloge/ wrap=countainer-->
+        <div class="wrap">
+            <!--3 aiguilles et point central-->
+            <span class="heure"></span>
+            <span class="minute"></span>
+            <span class="seconde"></span>
+            <span class="dot"></span>
+        </div>
+        <div id="alarme">
+            <a id="heur">14</a>
+            <a id="minu">25</a> 
+        </div>
+    </div>
+        <script src="./reveil.js"></script>
+    </body>
+
+</html>
