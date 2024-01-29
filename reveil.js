@@ -7,8 +7,8 @@ function clock() {
     let hourss = date.getHours();
     let minutes = date.getMinutes();
     let seconds = date.getSeconds();
-    let alarmHeure = parseInt(document.getElementById("heur").textContent);
-    let alarmMinute = parseInt(document.getElementById("minu").textContent);
+    let alarmHeure = parseInt(document.getElementById("h").textContent);
+    let alarmMinute = parseInt(document.getElementById("m").textContent);
     // degrés de rotation
     // constantes pour la rotation (calculs) 0 et 360
     let hour = hours * 30; 
