@@ -24,16 +24,16 @@ function clock() {
     if (hourss == alarmHeure && minutes == alarmMinute && seconds < 15) {
         playSound(alarme); 
     }
-}
+};
 
 let alarme = new Audio("/sound/frog.wav");
 
 function initClock(){
     clock();
 window.setInterval("clock()", 1);
-}
+};
 
 function playSound(sound) {
 sound.play();
-}
+};
 
